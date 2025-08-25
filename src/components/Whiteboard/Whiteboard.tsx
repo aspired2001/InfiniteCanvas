@@ -65,7 +65,7 @@ export const Whiteboard = () => {
 			const canvasEl = canvasRef.current;
 			if (!canvasEl) return;
 
-			const socket = await io('http://localhost:8080');
+			const socket = await io('https://infinitecanvasbackend.onrender.com');
 			socketRef.current = socket;
 
 			socket.on('connect', () => {

@@ -1,4 +1,4 @@
-# ExClone
+# InfiniteDraw
 
 A canvas-based drawing application built with Next.js and Fabric.js.
 
@@ -13,7 +13,7 @@ A canvas-based drawing application built with Next.js and Fabric.js.
 ## Project Structure
 
 ```
-exclone/
+InfiniteDraw/
 ├── src/
 │   ├── app/
 │   │   └── page.tsx              # Main application page
